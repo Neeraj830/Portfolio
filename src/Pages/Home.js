@@ -8,6 +8,7 @@ function Home() {
   const h12 = useRef();
   const h13 = useRef();
   const myimageref = useRef();
+
   useEffect(() => {
     const tl = gsap.timeline();
     tl.from(
@@ -79,7 +80,7 @@ function Home() {
         </h2>
       </div>
       <div className="mt-5 md:mt-0">
-        <img ref={myimageref} className="w-1/2 md:ml-auto" src={img} alt="Pavan MG" />
+        <img ref={myimageref} className="w-1/2 md:ml-auto rounded-full" src={img} alt="Neeraj S" />
       </div>
     </main>
   );
