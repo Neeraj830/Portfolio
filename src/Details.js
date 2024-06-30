@@ -19,6 +19,18 @@ import git from "./assets/techstack/git.png";
 import npm from "./assets/techstack/npm.png";
 import postman from "./assets/techstack/postman.png";
 import figma from "./assets/techstack/figma.png";
+import aws from "./assets/techstack/aws.png";
+import linux from "./assets/techstack/linux.png";
+import cpp from "./assets/techstack/cpp.png";
+import c from "./assets/techstack/c.png";
+import java from "./assets/techstack/java.png";
+import python from "./assets/techstack/python.png";
+import Metasploit from "./assets/techstack/Metasploit.png";
+import namp from "./assets/techstack/nmap.png";
+import wireshark from "./assets/techstack/wireshark.png";
+import php from "./assets/techstack/php.png";
+import mysql from "./assets/techstack/mysql.png";
+import dbms from "./assets/techstack/dbms.png";
 // Porject Images
 import projectImage1 from "./assets/projects/project1.jpg";
 import projectImage2 from "./assets/projects/project2.jpg";
@@ -108,6 +120,18 @@ export const techStackDetails = {
   git: git,
   github: github,
   figma: figma,
+  cpp: cpp,
+  c:c,
+  java: java,
+  python:python,
+  Metasploit: Metasploit,
+  namp:namp,
+  aws:aws,
+  linux: linux,
+  php:php,
+  mysql:mysql,
+  dbms:dbms,
+  wireshark:wireshark,
 };
 
 // Enter your Project Details here
